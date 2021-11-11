@@ -1,0 +1,114 @@
+/* PC */
+@media (min-width: 1024px) {
+    .hide-on-pc {
+        display: none;
+    }
+}
+/* Mobile & tablet */
+@media (max-width: 1023px) {
+    .header__lists-right {
+        display: none;
+    }
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .content__download-apps {
+        margin-bottom: 40px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .grid {
+        width: 644px;
+    }
+
+    .col-m-4 {
+        width: 33.3333%;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .col-m-6 {
+        width: 50%;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .col-m-12 {
+        width: 100%;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .slider,
+    .content__preferent-img {
+        height: 160px;
+    }
+    .footer-item {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .footer___download {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__download-app {
+        display: flex;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    
+    .col-c-6 {
+        width: 50%;
+        padding-left: 4px;
+        padding-right: 4px;
+  }
+    .col-c-12 {
+        width: 100%;
+        padding-left: 4px;
+        padding-right: 4px;
+  }
+    .header__navbar {
+        margin: 0 20px;
+    }
+    .header__logo {
+        padding: 5px;
+    }
+    .header__search-box {
+        margin: 0 5px;
+    }
+    .nav__mobile-bars {
+        padding: 0 5px;
+    }
+    .slider {
+        height: 100px;
+    }
+    .container {
+        padding: 0 10px;
+    }
+    .ct_col {
+        flex-direction: column;
+    }
+    .content__download-app {
+        padding: 12px 0 12px 5px;
+    }
+    .content__download-logo {
+        width: 200px;
+    }
+    .content__download-heading {
+        font-size: 1.4rem;
+    }
+    .content__download-desc,
+    .content__download-apps {
+        margin-top: 20px;
+    }
+    .footer__mobile {
+        display: block;
+    }
+}
